@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Avantgarde";
+    src: url("fonts/texgyreadventor-regular.otf");
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+.introTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-accent);
+}
+
+.ouroborosImage {
+    width: 50%;
+    height: 50%;
+}
+
+.introText {
+    font-size: 1.1rem;
+    line-height: 1.25;
+}
+
+.blogTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-accent);
+}
+
+/* All the headings which share same styling grouped into one */
+.intro,
+.mainContent,
+.moreContent,
+.comments,
+.relatedLinks {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-accent);
+}
+
+a {
+    color: var(--color-link);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+/*
+Temporary color palette for testing purposes. Will be replaced with final color palette in the future.
+
+Page background:
+LIGHT   hsl(43, 30%, 95%)   DARK  hsl(0, 0%, 12%)
+
+Article background:
+LIGHt   hsl(0, 0%, 100%)    DARK    hsl(0, 0%, 17%)
+
+Main text:
+LIGHT   hsl(0, 0%, 12%)     DARK    hsl(43, 30%, 95%)
+
+Supporting text:
+LIGHT   hsl(20, 8%, 36%)    DARK    hsl(30, 12%, 74%)
+
+Ouroboros heading:
+LIGHT   hsl(3, 45%, 44%)    DARK    hsl(3, 65%, 72%)
+
+Links:
+LIGHT   hsl(193, 30%, 31%)  DARK  hsl(40, 88%, 74%)
+
+Link hover:
+LIGHT   hsl(193, 40%, 23%)  DARK    hsl(40, 95%, 85%)
+
+Borders	hsl:
+LIGHT   (35, 15%, 78%)      DARK    hsl(0, 0%, 35%)
+*/
