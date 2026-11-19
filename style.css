@@ -10,20 +10,24 @@ body {
 }
 
 .introTitle {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: bold;
     text-align: center;
     color: var(--color-accent);
 }
 
 .ouroborosImage {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-inline: auto;
+    height: auto;
 }
 
 .introText {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.25;
+    text-align: center;
 }
 
 .blogTitle {
@@ -57,6 +61,19 @@ a:hover {
     /* ridge, double */
     border: 3.5px double var(--color-border);
     border-radius: 15%;
+    position: fixed;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: lower-greek;
+    padding: 0;
+    position: relative;
+    left: 1rem;
+    top: 0.01rem;
 }
 
 /*

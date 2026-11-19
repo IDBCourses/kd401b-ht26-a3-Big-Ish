@@ -42,7 +42,6 @@ button.addEventListener("click", function () {
   );
 
   // Button Text:
-  button.textContent == isDarkMode;
   isDarkMode
     ? (button.textContent = "Switch to Dark Mode")
     : (button.textContent = "Switch to Light Mode");
