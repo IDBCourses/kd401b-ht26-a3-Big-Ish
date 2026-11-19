@@ -18,10 +18,8 @@ body {
 
 .ouroborosImage {
     width: 35%;
-    height: 35%;
     display: block;
     margin-inline: auto;
-    height: auto;
 }
 
 .introText {
