@@ -1,6 +1,6 @@
 # Lighthouse report
 
-Generated 2026-11-19 19:13 UTC from commit `cc3da9b`.
+Generated 2026-11-19 21:04 UTC from commit `b1e3f94`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
@@ -18,11 +18,11 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 - **Ensure text remains visible during webfont load**
 - **Largest Contentful Paint element** (6,310 ms)
 - **Touch targets do not have sufficient size or spacing.**
-- **Eliminate render-blocking resources** (Est savings of 760 ms)
+- **Eliminate render-blocking resources** (Est savings of 680 ms)
 - **Serve images in next-gen formats** (Est savings of 830 KiB)
-- **Properly size images** (Est savings of 828 KiB)
+- **Properly size images** (Est savings of 890 KiB)
 - **Document does not have a meta description**
 - **Font display**
-- **Improve image delivery** (Est savings of 919 KiB)
+- **Improve image delivery** (Est savings of 923 KiB)
 - **Network dependency tree**
 - **Render blocking requests**
