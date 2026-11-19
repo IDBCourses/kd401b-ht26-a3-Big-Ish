@@ -1,0 +1,11 @@
+/* Color palette for light mode */
+:root {
+    --color-bg: hsl(43, 30%, 95%);
+    --color-surface: hsl(0, 0%, 100%);
+    --color-text: hsl(0, 0%, 12%);
+    --color-muted: hsl(20, 8%, 36%);
+    --color-accent: hsl(3, 45%, 44%);
+    --color-link: hsl(195, 59%, 33%);
+    --color-link-hover: hsl(193, 30%, 23%);
+    --color-border: hsl(35, 15%, 78%);
+}

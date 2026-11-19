@@ -1,0 +1,11 @@
+/* Color palette for dark mode */
+:root {
+    --color-bg: hsl(0, 0%, 12%);
+    --color-surface: hsl(0, 0%, 17%);
+    --color-text: hsl(43, 30%, 95%);
+    --color-muted: hsl(30, 12%, 74%);
+    --color-accent: hsl(3, 65%, 72%);
+    --color-link: hsl(40, 69%, 62%);
+    --color-link-hover: hsl(40, 89%, 50%);
+    --color-border: hsl(0, 0%, 35%);
+}
