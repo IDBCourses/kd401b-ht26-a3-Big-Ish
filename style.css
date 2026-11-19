@@ -17,8 +17,8 @@ body {
 }
 
 .ouroborosImage {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
 }
 
 .introText {
@@ -32,7 +32,7 @@ body {
     color: var(--color-accent);
 }
 
-/* All the headings which share same styling grouped into one */
+/* All the headings which share the same styling grouped into one */
 .intro,
 .mainContent,
 .moreContent,
@@ -51,8 +51,16 @@ a:hover {
     color: var(--color-link-hover);
 }
 
+#theme {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    /* ridge, double */
+    border: 3.5px double var(--color-border);
+    border-radius: 15%;
+}
+
 /*
-Temporary color palette for testing purposes. Will be replaced with final color palette in the future.
+Temporary color palette for easy of copy and paste.
 
 Page background:
 LIGHT   hsl(43, 30%, 95%)   DARK  hsl(0, 0%, 12%)
@@ -75,6 +83,6 @@ LIGHT   hsl(193, 30%, 31%)  DARK  hsl(40, 88%, 74%)
 Link hover:
 LIGHT   hsl(193, 40%, 23%)  DARK    hsl(40, 95%, 85%)
 
-Borders	hsl:
-LIGHT   (35, 15%, 78%)      DARK    hsl(0, 0%, 35%)
+Borders:
+LIGHT   hsl(35, 15%, 78%)   DARK    hsl(0, 0%, 35%)
 */
