@@ -1,6 +1,6 @@
 # Lighthouse report
 
-Generated 2026-11-19 22:58 UTC from commit `13cb49c`.
+Generated 2026-11-23 18:43 UTC from commit `8a7da44`.
 
 | Page | Performance | Accessibility | Best practices | SEO |
 |---|---|---|---|---|
@@ -19,7 +19,7 @@ For full explanations and advice, download **lighthouse-html-reports** from the 
 - **Largest Contentful Paint element** (6,310 ms)
 - **Image elements do not have explicit `width` and `height`**
 - **Touch targets do not have sufficient size or spacing.**
-- **Eliminate render-blocking resources** (Est savings of 660 ms)
+- **Eliminate render-blocking resources** (Est savings of 700 ms)
 - **Serve images in next-gen formats** (Est savings of 830 KiB)
 - **Properly size images** (Est savings of 877 KiB)
 - **Document does not have a meta description**
