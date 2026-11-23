@@ -10,7 +10,7 @@ body {
 }
 
 .introTitle {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
     font-weight: bold;
     text-align: center;
     color: var(--color-accent);
@@ -23,13 +23,18 @@ body {
 }
 
 .introText {
-    font-size: 1rem;
-    line-height: 1.25;
+    font-size: 0.9rem;
+    line-height: 1.5;
     text-align: center;
 }
 
+.text {
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
 .blogTitle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: var(--color-accent);
 }
@@ -40,7 +45,7 @@ body {
 .moreContent,
 .comments,
 .relatedLinks {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: var(--color-accent);
 }
@@ -60,8 +65,8 @@ a:hover {
     border: 3.5px double var(--color-border);
     border-radius: 15%;
     position: fixed;
-    top: 0.1rem;
-    right: 0.1rem;
+    top: 0.75rem;
+    right: 0.25rem;
 }
 
 nav ul {
@@ -70,8 +75,13 @@ nav ul {
     list-style: lower-greek;
     padding: 0;
     position: relative;
-    left: 1rem;
-    top: 0.01rem;
+    top: 0rem;
+    left: 1.5rem;
+}
+
+.seperator {
+    position: relative;
+    top: 1.5rem;
 }
 
 /*
